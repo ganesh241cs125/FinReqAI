@@ -1,0 +1,27 @@
+SYNTHETIC DEMONSTRATION DOCUMENT — NOT A REAL REGULATION
+
+Document: Synthetic Banking Security Policy
+Version: 1.0
+Jurisdiction: Demonstration
+Effective date: 2026-01-01
+
+1. Authentication
+Applications handling customer financial transactions should require authenticated sessions.
+High-risk or high-value transactions should use an additional authentication factor according to
+the organization's approved risk policy.
+
+2. Authorization
+A customer should only be permitted to access accounts and transaction records for which the
+customer is authorized.
+
+3. Auditability
+Security-sensitive actions should generate auditable events containing timestamp, actor and
+action information.
+
+4. Data protection
+Sensitive customer information should be protected in transit and at rest using organization-
+approved security controls.
+
+5. Human approval
+Interpretation of security controls for high-risk financial workflows should be reviewed by an
+authorized security or compliance officer.

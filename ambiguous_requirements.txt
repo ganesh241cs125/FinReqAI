@@ -1,0 +1,4 @@
+The banking application should be fast.
+The system should be secure.
+The user experience should be easy.
+The application should be highly available.

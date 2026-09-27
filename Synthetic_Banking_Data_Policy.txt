@@ -1,0 +1,20 @@
+SYNTHETIC DEMONSTRATION DOCUMENT — NOT A REAL REGULATION
+
+Document: Synthetic Customer Data Policy
+Version: 1.0
+Jurisdiction: Demonstration
+Effective date: 2026-01-01
+
+1. Access
+Customer information must only be exposed to authorized users and services.
+
+2. Retention
+The organization must define an approved retention period for transaction and customer records.
+The retention period must be documented before production release.
+
+3. Privacy
+Systems should identify the categories of personal data processed and document their permitted use.
+
+4. Traceability
+Important data-processing requirements should be linked to a source policy or approved business
+decision.

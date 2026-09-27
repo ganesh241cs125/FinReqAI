@@ -1,0 +1,18 @@
+SYNTHETIC DEMONSTRATION DOCUMENT — NOT A REAL STANDARD
+
+Document: Synthetic SDLC Guidance
+Version: 1.0
+
+Waterfall: suitable when requirements are stable and formal approvals dominate.
+
+V-Model: suitable when verification and validation are strict and traceability is important.
+
+Spiral: suitable when technical uncertainty and project risk are high.
+
+Agile: suitable when requirements evolve frequently and stakeholder feedback is continuous.
+
+DevSecOps: suitable when secure continuous integration/deployment and continuous security
+validation are important.
+
+Hybrid: suitable when a project combines strong regulatory/verification needs with evolving
+requirements.

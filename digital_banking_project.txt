@@ -1,0 +1,15 @@
+We want to build a mobile banking application.
+
+Customers should be able to:
+- log in securely
+- view account balances
+- add beneficiaries
+- transfer money
+- download transaction history
+- receive transaction notifications
+
+High-value transactions should require additional authentication.
+
+The application should be secure, highly available and fast.
+
+The business expects requirements to evolve based on customer feedback.

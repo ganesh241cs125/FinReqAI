@@ -1,0 +1,2 @@
+High-value transactions must require OTP authentication.
+Transactions should never require OTP authentication.

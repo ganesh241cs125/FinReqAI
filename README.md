@@ -180,3 +180,76 @@ For your report, describe the system as:
 **"An Agentic AI-based financial requirements engineering assistant combining structured requirement analysis, retrieval-grounded compliance evidence, deterministic SDLC multi-criteria decision analysis, and human-in-the-loop approval."**
 
 Do not claim that an LLM alone guarantees compliance or SDLC correctness.
+
+
+## How to Run the Project
+
+### Prerequisites
+Make sure the following are installed:
+- Python 3.11 or above
+- Node.js 20 or above
+- npm
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/ganesh241cs125/FinReqAI.git
+cd FinReqAI
+```
+
+### Step 2: Setup and Start the Backend
+
+Open the first terminal and execute:
+
+```powershell
+cd backend
+
+python -m venv .venv
+
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+
+Copy-Item .env.example .env
+
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --reload --port 8000
+```
+
+The backend will start at:
+
+`http://127.0.0.1:8000`
+
+Verify the backend using:
+
+`http://127.0.0.1:8000/api/health`
+
+### Step 3: Setup and Start the Frontend
+
+Open a second terminal and execute:
+
+```powershell
+cd FinReqAI/frontend
+
+npm.cmd install
+
+npm.cmd run dev
+```
+
+The frontend will start at:
+
+`http://localhost:5173`
+
+### Step 4: Access the Application
+
+1. Open `http://localhost:5173` in your browser.
+2. Enter the project name and project description.
+3. Click **Analyze Project**.
+4. View the extracted requirements and their classifications.
+5. Explore Quality, Compliance, Security and Risk analysis.
+6. View the SDLC recommendation and suitability scores.
+7. Explore and generate the project documents in the Artifacts section.
+8. Review and approve or reject requirements.
+
+### Step 5: Stop the Application
+
+Press Ctrl + C in both terminal windows to stop the backend and frontend servers.
+
+**Note:** Both backend and frontend servers must remain running while using the application. The project supports Demo mode without an OpenAI API key. To enable optional OpenAI integration, configure `OPENAI_API_KEY` and `OPENAI_MODEL` in `backend/.env`.

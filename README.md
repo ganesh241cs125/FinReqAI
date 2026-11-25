@@ -39,9 +39,6 @@ Coordinator
 SQLite + Local RAG Index
 ```
 
-## Important
-
-This is a college-project prototype. It is NOT a legal compliance system and must not be used to make real regulatory decisions. Compliance findings are evidence-based suggestions and require human review.
 
 ## Requirements
 

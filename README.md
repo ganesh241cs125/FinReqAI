@@ -170,13 +170,6 @@ FinReqAI/
 └── README.md
 ```
 
-## Suggested academic contribution
-
-For your report, describe the system as:
-
-**"An Agentic AI-based financial requirements engineering assistant combining structured requirement analysis, retrieval-grounded compliance evidence, deterministic SDLC multi-criteria decision analysis, and human-in-the-loop approval."**
-
-Do not claim that an LLM alone guarantees compliance or SDLC correctness.
 
 
 ## How to Run the Project
